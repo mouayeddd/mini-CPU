@@ -49,13 +49,13 @@ HALT
 
 Compile both source files together:
 ```bash
-gcc main.c cpu.c -o cpu_sim
+gcc main.c cpu.c -o cpu
 ```
 
 Run it:
 ```bash
-./cpu_sim        # on Linux/Mac
-.\cpu_sim.exe     # on Windows
+./cpu       # on Linux/Mac
+.\cpu.exe     # on Windows
 ```
 
 Make sure `program.txt` is in the same folder as the compiled program.
